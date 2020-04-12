@@ -12,6 +12,14 @@ html {
 	font-size: 62.5%;
 }
 
+html,body {
+    width: 100%; 
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 :root {
     --red: hsl(0, 100%, 68%);
     --very-dark-blue: hsl(230, 29%, 20%); 
@@ -21,4 +29,116 @@ html {
     --font-size: 1.75rem;
     --font-BarlowCondensed: 'Barlow Condensed', sans-serif;
     --font-Barlow: 'Barlow', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--very-dark-blue);
+    font-weight: 700;
+}
+
+h1 {
+    font-family: var(--font-BarlowCondensed);
+    font-size: 7rem;
+    font-weight: 700;
+    margin-top: 20px;
+    color: var(--very-dark-blue);
+    line-height: 70px;
+}
+
+.btn {
+    background-color: var(--red);
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.75rem;
+    font-weight: 600;
+    font-family: var(--font-BarlowCondensed);
+    letter-spacing: 1px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    padding: 100px;
+}
+
+.info-new {
+    height: 25px;
+    width: 50px;
+    background-color: var(--very-dark-blue);
+    border-radius: 30px;
+    color: white;
+    font-family: var(--font-BarlowCondensed);
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.40rem;
+}
+
+.landing-page {
+    width: 100%; 
+    position: relative;
+    z-index: 2;
+}
+
+.margin-right {
+    margin-right: 50px;
+}
+
+.margin-top {
+    margin-top: 70px;
+}
+
+.navbar {
+    font-family: var(--font-BarlowCondensed);
+    padding: 30px 100px;
+    position: relative;
+    z-index: 2;
+}
+
+.rectangle {
+    height: 500px;
+    width: 900px; 
+    border-radius: 80px;
+    background-color: var(--light-grayish-blue);
+    position: relative;
+    z-index: 1; 
+    left: 710px;
+    top: -900px;
+}
+
+.spacing {
+    font-family: var(--font-BarlowCondensed);
+    color: var(--grayish-blue);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+
+.text-right {
+    text-align: right;
+}
+
+#summary {
+    font-family: var(--font-Barlow);
+    color: var(--dark-grayish-blue);
+    margin-top: 40px;
+    font-size: 2rem;
+    font-weight: 300;
+    width: 300px;
+    line-height: 30px;
 }
