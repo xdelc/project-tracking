@@ -114,10 +114,10 @@ h1 {
     width: 900px; 
     border-radius: 80px;
     background-color: var(--light-grayish-blue);
-    position: relative;
-    z-index: 1; 
-    left: 710px;
-    top: -900px;
+    position: absolute;
+    z-index: -1; 
+    left: 730px;
+    top: -150px;
 }
 
 .spacing {
