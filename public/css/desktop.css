@@ -116,9 +116,9 @@ h1 {
     margin-top: 70px;
 }
 
-.navbar {
+.navbar-format {
     font-family: var(--font-BarlowCondensed);
-    padding: 30px 100px;
+    padding: 30px 115px;
     position: relative;
     z-index: 2;
 }
