@@ -104,7 +104,7 @@ h1 {
     z-index: 2;
 }
 
-.light-gray {
+.active {
     color: var(--grayish-blue);
 }
 
@@ -121,6 +121,17 @@ h1 {
     padding: 30px 115px;
     position: relative;
     z-index: 2;
+}
+
+.navbar-nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  text-align: center;
 }
 
 .rectangle {
